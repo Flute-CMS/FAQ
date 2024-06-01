@@ -1,0 +1,8 @@
+{
+    "name": "FAQ",
+    "version": "1.0.0",
+    "description": "faq.description",
+    "authors": ["Flames"],
+    "providers": ["Flute\\Modules\\FAQ\\src\\ServiceProviders\\FAQServiceProvider"],
+    "dependencies": {}
+}
