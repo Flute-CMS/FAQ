@@ -44,8 +44,10 @@ class ApiAdminFaqController extends AbstractController
         }
     }
 
-    public function update(FluteRequest $request, $id): Response
+    public function update(FluteRequest $request): Response
     {
+        $id = $request->input('id', 0);
+
         try {
             $this->faqService->update(
                 (int) $id,

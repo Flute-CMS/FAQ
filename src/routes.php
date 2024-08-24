@@ -17,6 +17,6 @@ $router->group(function (RouteGroup $routeGroup) {
     $routeGroup->group(function (RouteGroup $adminRouteGroup) {
         $adminRouteGroup->post('add', [ApiAdminFaqController::class, 'store']);
         $adminRouteGroup->delete('{id}', [ApiAdminFaqController::class, 'delete']);
-        $adminRouteGroup->put('{id}', [ApiAdminFaqController::class, 'update']);
+        $adminRouteGroup->put('edit', [ApiAdminFaqController::class, 'update']);
     }, 'api/faq/');
 }, 'admin/');
