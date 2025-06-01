@@ -1,8 +1,8 @@
 {
     "name": "FAQ",
-    "version": "1.0.1",
-    "description": "faq.description",
+    "version": "1.0.0",
+    "description": "Module for displaying frequently asked questions with rich text editors",
     "authors": ["Flames"],
-    "providers": ["Flute\\Modules\\FAQ\\src\\ServiceProviders\\FAQServiceProvider"],
+    "providers": ["Flute\\Modules\\FAQ\\Providers\\FAQProvider"],
     "dependencies": {}
-}
+} 
